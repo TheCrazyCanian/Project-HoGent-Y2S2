@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+
+
+spawn sudo ssh-copy-id -i /home/vagrant/.ssh/id_rsa.pub -p 22 vagrant@172.16.128.51
+
+    expect {
+        "(yes/no/*"
+        {
+            send "yes\n"
+            expect "*assword:" { send "vagrant\n"}
+        }
+        "*assword:"
+        {
+            send "vagrant\n"
+        }
+    }
+expect eof

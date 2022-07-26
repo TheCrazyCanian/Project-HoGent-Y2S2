@@ -1,0 +1,11 @@
+OUName,OUPath
+thematrix,"DC=thematrix,DC=local"
+Accounts,"OU=thematrix,DC=thematrix,DC=local"
+Computers,"OU=thematrix,DC=thematrix,DC=local"
+Groups,"OU=thematrix,DC=thematrix,DC=local"
+Admins,"OU=Accounts,OU=thematrix,DC=thematrix,DC=local"
+Service Accounts,"OU=Accounts,OU=thematrix,DC=thematrix,DC=local"
+Users,"OU=Accounts,OU=thematrix,DC=thematrix,DC=local"
+Servers,"OU=Computers,OU=thematrix,DC=thematrix,DC=local"
+Workstations,"OU=Computers,OU=thematrix,DC=thematrix,DC=local"
+Security Groups,"OU=Groups,OU=thematrix,DC=thematrix,DC=local"

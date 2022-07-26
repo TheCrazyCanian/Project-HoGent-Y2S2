@@ -1,0 +1,24 @@
+# vagrant_hosts.yml
+#
+# List of hosts to be created by Vagrant. For more information about the
+---
+- name: morpheus
+  ip: 172.16.128.51
+  netmask: 255.255.255.240
+  box: bento/almalinux-8
+
+- name: trinity
+  ip: 172.16.128.52
+  netmask: 255.255.255.240
+  box: bento/almalinux-8
+
+- name: sshclient
+  ip: 172.16.128.55
+  netmask: 255.255.255.240
+  box: bento/almalinux-8
+
+- name: jarne
+  ip: 172.16.128.56
+  netmask: 255.255.255.240
+  box: bento/almalinux-8
+
